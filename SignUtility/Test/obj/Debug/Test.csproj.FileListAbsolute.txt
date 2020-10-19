@@ -1,0 +1,10 @@
+D:\个人\Code\公共库\签名库\SignUtility\Test\bin\Debug\Test.exe.config
+D:\个人\Code\公共库\签名库\SignUtility\Test\bin\Debug\Test.exe
+D:\个人\Code\公共库\签名库\SignUtility\Test\bin\Debug\Test.pdb
+D:\个人\Code\公共库\签名库\SignUtility\Test\bin\Debug\SignUtility.dll
+D:\个人\Code\公共库\签名库\SignUtility\Test\bin\Debug\SignUtility.pdb
+D:\个人\Code\公共库\签名库\SignUtility\Test\obj\Debug\Test.csprojAssemblyReference.cache
+D:\个人\Code\公共库\签名库\SignUtility\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\个人\Code\公共库\签名库\SignUtility\Test\obj\Debug\Test.csproj.CopyComplete
+D:\个人\Code\公共库\签名库\SignUtility\Test\obj\Debug\Test.exe
+D:\个人\Code\公共库\签名库\SignUtility\Test\obj\Debug\Test.pdb

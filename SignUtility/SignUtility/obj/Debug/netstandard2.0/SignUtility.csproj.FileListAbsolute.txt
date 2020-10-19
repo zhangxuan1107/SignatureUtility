@@ -1,0 +1,9 @@
+D:\个人\Code\公共库\签名库\SignUtility\SignUtility\bin\Debug\netstandard2.0\SignUtility.deps.json
+D:\个人\Code\公共库\签名库\SignUtility\SignUtility\bin\Debug\netstandard2.0\SignUtility.dll
+D:\个人\Code\公共库\签名库\SignUtility\SignUtility\bin\Debug\netstandard2.0\SignUtility.pdb
+D:\个人\Code\公共库\签名库\SignUtility\SignUtility\obj\Debug\netstandard2.0\SignUtility.csprojAssemblyReference.cache
+D:\个人\Code\公共库\签名库\SignUtility\SignUtility\obj\Debug\netstandard2.0\SignUtility.AssemblyInfoInputs.cache
+D:\个人\Code\公共库\签名库\SignUtility\SignUtility\obj\Debug\netstandard2.0\SignUtility.AssemblyInfo.cs
+D:\个人\Code\公共库\签名库\SignUtility\SignUtility\obj\Debug\netstandard2.0\SignUtility.csproj.CoreCompileInputs.cache
+D:\个人\Code\公共库\签名库\SignUtility\SignUtility\obj\Debug\netstandard2.0\SignUtility.dll
+D:\个人\Code\公共库\签名库\SignUtility\SignUtility\obj\Debug\netstandard2.0\SignUtility.pdb
