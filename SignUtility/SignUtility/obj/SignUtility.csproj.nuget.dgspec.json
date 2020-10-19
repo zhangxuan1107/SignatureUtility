@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\个人\\Code\\公共库\\签名库\\SignUtility\\SignUtility\\SignUtility.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "D:\\个人\\Code\\公共库\\签名库\\SignUtility\\SignUtility\\SignUtility.csproj",
         "projectName": "SignUtility",
@@ -21,8 +21,8 @@
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/zhangxuan1107/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {

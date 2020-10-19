@@ -38,7 +38,7 @@ namespace Test
 
             #region 测试签名
             var strEncryptedSignatureData = "";//签名后的
-            var strSource = "2020-10-19 10:21用户张轩充值了100元";//待签名字符串
+            var strSource = "2020-10-19 10:21用户张x充值了100元";//待签名字符串
             var strHashbyteSignature = "";//hash
             if(SignHelper.GetHash(strSource, ref strHashbyteSignature))//获取hash
             {

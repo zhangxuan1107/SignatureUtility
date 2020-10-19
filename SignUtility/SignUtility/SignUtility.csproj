@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>zxeli</Authors>
+    <Description>本库包含共
+1.生成rsa密钥对（公钥和私钥）
+2.根据私钥加密和签名
+3.根据公钥解密和验签
+本库是.netstandard2.0 可被.net framework4.7.2调用；理论上可被.net core2.x调用（未测试过）</Description>
+    <PackageReleaseNotes>第一次是debug版本；这次是release版</PackageReleaseNotes>
+    <Version>1.0.1</Version>
+	  <RepositoryType>git</RepositoryType>
+	  <RepositoryUrl>https://github.com/zhangxuan1107/SignatureUtility.git</RepositoryUrl>
   </PropertyGroup>
-
+	
 </Project>
