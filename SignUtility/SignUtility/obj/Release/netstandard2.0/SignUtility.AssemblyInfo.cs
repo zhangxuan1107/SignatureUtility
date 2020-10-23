@@ -15,11 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("本库包含共\n1.生成rsa密钥对（公钥和私钥）\n2.根据私钥加密和签名\n3.根据公钥解密和验签\n本库是.netstandard2.0 可被.net framewo" +
     "rk4.7.2调用；理论上可被.net core2.x调用（未测试过）")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.4.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.4")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignUtility")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignUtility")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.4.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。
 

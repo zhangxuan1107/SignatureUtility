@@ -6,4 +6,3 @@ D:\个人\Code\公共库\签名库\SignUtility\SignUtility\obj\Release\netstanda
 D:\个人\Code\公共库\签名库\SignUtility\SignUtility\obj\Release\netstandard2.0\SignUtility.csproj.CoreCompileInputs.cache
 D:\个人\Code\公共库\签名库\SignUtility\SignUtility\obj\Release\netstandard2.0\SignUtility.dll
 D:\个人\Code\公共库\签名库\SignUtility\SignUtility\obj\Release\netstandard2.0\SignUtility.pdb
-D:\个人\Code\公共库\签名库\SignUtility\SignUtility\obj\Release\netstandard2.0\SignUtility.csprojAssemblyReference.cache

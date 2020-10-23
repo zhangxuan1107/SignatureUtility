@@ -270,7 +270,7 @@ namespace SignUtility
         /// </summary>  
         /// <param name="strKeyPrivate">私钥</param>  
         /// <param name="HashbyteSignature">待签名Hash描述</param>  
-        /// <param name="m_strEncryptedSignatureData">签名后的结果</param>  
+        /// <param name="strEncryptedSignatureData">签名后的结果</param>  
         /// <returns></returns>  
         public static bool SignatureFormatter(string strKeyPrivate, byte[] HashbyteSignature, ref string strEncryptedSignatureData)
         {

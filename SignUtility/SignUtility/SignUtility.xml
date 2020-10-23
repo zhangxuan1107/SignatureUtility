@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SignUtility</name>
+    </assembly>
+    <members>
+        <member name="T:SignUtility.SignHelper">
+            <summary>
+            提供给外部的签名工具类
+            
+            </summary>
+        </member>
+        <member name="M:SignUtility.SignHelper.RSAKey(System.String@,System.String@)">
+            <summary>  
+            RSA产生密钥  
+            </summary>  
+            <param name="xmlKeys">私钥</param>  
+            <param name="xmlPublicKey">公钥</param>  
+        </member>
+        <member name="M:SignUtility.SignHelper.RSAEncrypt(System.String,System.String)">
+            <summary>  
+            RSA的加密函数  
+            </summary>  
+            <param name="xmlPublicKey">公钥</param>  
+            <param name="encryptString">待加密的字符串</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.RSAEncrypt(System.String,System.Byte[])">
+            <summary>  
+            RSA的加密函数   
+            </summary>  
+            <param name="xmlPublicKey">公钥</param>  
+            <param name="EncryptString">待加密的字节数组</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.RSADecrypt(System.String,System.String)">
+            <summary>  
+            RSA的解密函数  
+            </summary>  
+            <param name="xmlPrivateKey">私钥</param>  
+            <param name="decryptString">待解密的字符串</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.RSADecrypt(System.String,System.Byte[])">
+            <summary>  
+            RSA的解密函数   
+            </summary>  
+            <param name="xmlPrivateKey">私钥</param>  
+            <param name="DecryptString">待解密的字节数组</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.GetHash(System.String,System.Byte[]@)">
+            <summary>  
+            获取Hash描述表  
+            </summary>  
+            <param name="strSource">待签名的字符串</param>  
+            <param name="HashData">Hash描述</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.GetHash(System.String,System.String@)">
+            <summary>  
+            获取Hash描述表  
+            </summary>  
+            <param name="strSource">待签名的字符串</param>  
+            <param name="strHashData">Hash描述</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.GetHash(System.IO.FileStream,System.Byte[]@)">
+            <summary>  
+            获取Hash描述表  
+            </summary>  
+            <param name="objFile">待签名的文件</param>  
+            <param name="HashData">Hash描述</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.GetHash(System.IO.FileStream,System.String@)">
+            <summary>  
+            获取Hash描述表  
+            </summary>  
+            <param name="objFile">待签名的文件</param>  
+            <param name="strHashData">Hash描述</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.SignatureFormatter(System.String,System.Byte[],System.Byte[]@)">
+            <summary>  
+            RSA签名  
+            </summary>  
+            <param name="strKeyPrivate">私钥</param>  
+            <param name="HashbyteSignature">待签名Hash描述</param>  
+            <param name="EncryptedSignatureData">签名后的结果</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.SignatureFormatter(System.String,System.Byte[],System.String@)">
+            <summary>  
+            RSA签名  
+            </summary>  
+            <param name="strKeyPrivate">私钥</param>  
+            <param name="HashbyteSignature">待签名Hash描述</param>  
+            <param name="strEncryptedSignatureData">签名后的结果</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.SignatureFormatter(System.String,System.String,System.Byte[]@)">
+            <summary>  
+            RSA签名  
+            </summary>  
+            <param name="strKeyPrivate">私钥</param>  
+            <param name="strHashbyteSignature">待签名Hash描述</param>  
+            <param name="EncryptedSignatureData">签名后的结果</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.SignatureFormatter(System.String,System.String,System.String@)">
+            <summary>  
+            RSA签名  
+            </summary>  
+            <param name="strKeyPrivate">私钥</param>  
+            <param name="strHashbyteSignature">待签名Hash描述</param>  
+            <param name="strEncryptedSignatureData">签名后的结果</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.SignatureDeformatter(System.String,System.Byte[],System.Byte[])">
+            <summary>  
+            RSA签名验证  
+            </summary>  
+            <param name="strKeyPublic">公钥</param>  
+            <param name="HashbyteDeformatter">Hash描述</param>  
+            <param name="DeformatterData">签名后的结果</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.SignatureDeformatter(System.String,System.String,System.Byte[])">
+            <summary>  
+            RSA签名验证  
+            </summary>  
+            <param name="strKeyPublic">公钥</param>  
+            <param name="strHashbyteDeformatter">Hash描述</param>  
+            <param name="DeformatterData">签名后的结果</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.SignatureDeformatter(System.String,System.Byte[],System.String)">
+            <summary>  
+            RSA签名验证  
+            </summary>  
+            <param name="strKeyPublic">公钥</param>  
+            <param name="HashbyteDeformatter">Hash描述</param>  
+            <param name="strDeformatterData">签名后的结果</param>  
+            <returns></returns>  
+        </member>
+        <member name="M:SignUtility.SignHelper.SignatureDeformatter(System.String,System.String,System.String)">
+            <summary>  
+            RSA签名验证  
+            </summary>  
+            <param name="strKeyPublic">公钥</param>  
+            <param name="strHashbyteDeformatter">Hash描述</param>  
+            <param name="strDeformatterData">签名后的结果</param>  
+            <returns></returns>  
+        </member>
+    </members>
+</doc>

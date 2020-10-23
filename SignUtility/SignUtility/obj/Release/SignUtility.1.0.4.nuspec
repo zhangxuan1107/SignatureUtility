@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SignUtility</id>
+    <version>1.0.4</version>
+    <authors>zxeli</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>本库包含共
+1.生成rsa密钥对（公钥和私钥）
+2.根据私钥加密和签名
+3.根据公钥解密和验签
+本库是.netstandard2.0 可被.net framework4.7.2调用；理论上可被.net core2.x调用（未测试过）</description>
+    <releaseNotes>第一次是debug版本；这次是release版</releaseNotes>
+    <repository type="git" url="https://github.com/zhangxuan1107/SignatureUtility.git" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\个人\Code\公共库\签名库\SignUtility\SignUtility\bin\Release\netstandard2.0\SignUtility.dll" target="lib\netstandard2.0\SignUtility.dll" />
+  </files>
+</package>
